@@ -769,6 +769,11 @@ hr {
 .cbtn{
   color: chocolate !important;
   border:2px solid chocolate !important;
+  
+}
+.btn:hover{
+  background-color:chocolate !important;
+  color:white;
 }
 .btn-c{
   background-color: chocolate !important;
