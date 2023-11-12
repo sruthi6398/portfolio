@@ -766,6 +766,16 @@ hr {
 .text-c{
   color: chocolate;
 }
+.ctext:hover{
+  color: white !important;
+  
+}
+.cname{
+  color:chocolate !important;
+}
+.wname{
+  color: white !important;
+}
 .cbtn{
   color: chocolate !important;
   border:2px solid chocolate !important;
