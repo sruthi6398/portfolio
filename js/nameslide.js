@@ -27,12 +27,12 @@ function nameLightEffect() {
     if(nname.classList.contains("cname")){
         nname.classList.remove("cname");
         nname.classList.add("wname");
-        setTimeout(nameLightEffect, 500);
+        setTimeout(nameLightEffect, 1000);
     }
     else{
         nname.classList.remove("wname");
         nname.classList.add("cname");
-        setTimeout(nameLightEffect, 500);
+        setTimeout(nameLightEffect, 1000);
     }
     
 }
