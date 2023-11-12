@@ -1,6 +1,7 @@
 const items = [' Sruthi Kakumanu.', ' a Web Developer.', ' a Designer.', 'a Freelancer.'];
    
 const tyEl = document.getElementById('typed');
+const nname=document.querySelector("#nname")
 
 tyEl.textContent = "";
 let currentItemIndex = 1;
@@ -19,5 +20,24 @@ function displayNextItem() {
     }
 }
 
+function nameLightEffect() {
+ 
+    
+
+    if(nname.classList.contains("cname")){
+        nname.classList.remove("cname");
+        nname.classList.add("wname");
+        setTimeout(nameLightEffect, 500);
+    }
+    else{
+        nname.classList.remove("wname");
+        nname.classList.add("cname");
+        setTimeout(nameLightEffect, 500);
+    }
+    
+}
+
 displayNextItem();
-console.log(divEl)
+nameLightEffect();
+
+const ctext = document.getElementById('ctext');
